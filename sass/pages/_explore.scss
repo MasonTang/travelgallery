@@ -1,0 +1,44 @@
+.title{
+
+    a{
+        text-decoration:none !important;
+    }
+}
+
+.container-1{
+    height: 120vh;
+    
+}
+
+.explore__pic{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+    &-1{
+        width:300px;
+        height:300px;
+        padding:20px 10px 10px 10px;
+        border-radius: 5rem;
+        box-shadow: 0 1rem 1rem;
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
+
+.hover1{
+   position: relative;
+}
+
+.bosnia{
+    position: absolute;
+    left:10%;
+    top:35%;
+    transform: (-50%, -50%);
+    color: black;
+    font-size: 2rem;
+    z-index: 100;
+}

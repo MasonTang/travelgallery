@@ -1,0 +1,89 @@
+.footer{
+    @include clearfix;
+    height:40vh;
+    background-image: url("1blue-horizon.jpg");
+    background-position:center;
+
+    @media screen and (max-width: 760px){
+            height: 90vh;
+        }
+
+    &__title{
+        color:white;
+        font-size:2rem;
+        padding: 1rem 0 .5rem 2rem;
+        text-decoration: underline;
+        letter-spacing: 5px;
+        font-weight:bold;
+        float:left;
+
+        @media screen and (max-width: 760px){
+            font-size:1rem;
+            padding: 1rem 0 0 5rem;
+        }
+    }
+
+    &__follow{
+        color:white;
+        font-size:2rem;
+        padding: 1rem 6rem .5rem 0rem;
+        text-decoration: underline;
+        letter-spacing: 5px;
+        font-weight:bold;
+        float:right;
+
+        @media screen and (max-width: 760px){
+            color:red;
+            float:none;
+            @include clearfix;
+            position:absolute;
+            bottom: 100%;
+
+
+        }
+    }
+
+    &__left{
+        float:left;
+        color:white;
+        padding:0.3rem 0 0 2rem;
+        line-height: 2rem;
+
+        @media screen and (max-width: 760px){
+            position:relative;
+            float:left;
+            margin: 1rem 0 0 8rem;
+        }
+        
+    }
+
+    &__middle{
+        float:left;
+        color:white;
+        padding:0.3rem 0 0 13rem;
+        line-height: 2rem;
+
+        @media screen and (max-width: 760px){
+            float:left;
+            padding: 10rem 0 0 10rem;
+            float:none;
+        }
+    }
+
+    &__right{
+        float:right;
+        color:red;
+        padding:0.3rem 3rem 0 0;
+        line-height: 2rem;
+
+        @media screen and (max-width: 760px){
+            float:left;
+            padding: 1rem 0 0 5rem;
+        }
+    }
+
+    &__text:hover{
+        color:rgb(181, 241, 16);
+        text-decoration:underline;
+    }
+}

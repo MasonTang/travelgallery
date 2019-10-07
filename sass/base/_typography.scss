@@ -1,0 +1,50 @@
+.title-main{
+    color:white;
+    font-size:4rem;
+    padding-bottom: 2rem;
+    word-spacing: 1rem;  
+    font-family: 'Lobster', cursive;
+
+    @include respond(tab-port){
+        color:white;
+        font-size:3rem;
+        padding-bottom: 2rem;
+        word-spacing: 0.8rem;  
+        font-family: 'Lobster', cursive; 
+    }
+    
+     @include respond(phone){
+        color:white;
+        font-size:2rem;
+        padding-bottom: 1.5rem;
+        word-spacing: 0.5rem;  
+        font-family: 'Lobster', cursive; 
+    }
+}
+.title-sub{
+    color:white;
+    font-size:3rem;
+    word-spacing: 10rem;
+
+    @include respond(tab-land){
+        color:white;
+        font-size: 2.4rem;
+        word-spacing: 3.8rem;
+    }
+
+    @include respond(tab-port){
+        color:white;
+        font-size:2.3rem;
+        word-spacing: 2.8rem;
+    }
+
+    @include respond(phone){
+        color:white;
+        font-size:1.8em;
+        word-spacing: 20rem;
+    }
+}
+.title_explore{
+    color:white;
+    font-family: 'Lobster', cursive;
+}
